@@ -36,7 +36,7 @@ def print_result(annotations):
 
 
 city='Kolkata' ## Will be updated as input from the chatbot
-url = "https://maps.googleapis.com/maps/api/place/textsearch/json?input=Hospital%20"+city+"&inputtype=textquery&fields=formatted_address,name,rating,placeid&key=AIzaSyA1NVeXFdIsleXRor_x4bKKsLonWkd0Jm4" ##API key to fetch hospitals using the google places API
+url = "https://maps.googleapis.com/maps/api/place/textsearch/json?input=Hospital%20"+city+"&inputtype=textquery&fields=formatted_address,name,rating,placeid&key=KEY" ##API key to fetch hospitals using the google places API
 
 r=requests.get(url)
 x=r.json()
